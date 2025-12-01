@@ -1,0 +1,112 @@
+# General
+.DS_Store
+Thumbs.db
+Desktop.ini
+.classpath
+.connection
+.project
+.settings/
+
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Lockfiles are usually tracked (keep `pnpm-lock.yaml` / `package-lock.json`), do not ignore them here
+
+# Next.js / Vite / build outputs
+.next/
+out/
+dist/
+build/
+public/build/
+.vite/
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.production
+.env.test
+.env.docker
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Coverage
+coverage/
+coverage/*.json
+coverage/*.lcov
+coverage.out
+*.coverprofile
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+ENV/
+env/
+
+# Go
+bin/
+# Go build output binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+# Vendored dependencies (optional to track; commonly ignored)
+vendor/
+# Test coverage
+coverage.out
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+docker-compose.*.env
+docker-compose.local.yml
+docker-compose.local.*
+*/docker-compose.override.yml
+
+# Database / DB files
+*.sqlite3
+*.db
+pgdata/
+postgres-data/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+.history/
+
+# OS generated files
+*.lock
+Thumbs.db
+ehthumbs.db
+
+# Misc
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+
+# Optional: add any workspace-specific paths you want to ignore below
+# e.g., local build folders for services, editor-specific files
+
